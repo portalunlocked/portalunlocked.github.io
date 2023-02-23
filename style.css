@@ -3,7 +3,8 @@ body {
     margin: 0;
     padding-top: 12vh;
     padding-left: 8vw;
-    font-family: 'Open Sans';
+    font-family: 'Roboto Condensed', sans-serif;
+    
 }
 
 .navbar {
@@ -36,11 +37,7 @@ body {
     height: 100%;
 }
 
-h1{
-  font-size: 30px;
-  padding-bottom: 20vh;
-  color: white;
-}
+
 .list-button {
     margin: 0 10px;
     
@@ -58,8 +55,8 @@ h1{
 }
 
 .form-container{
-  padding-left: 30vw;
-  padding-bottom: 37vh;
+  margin-left: 30vw;
+  margin-bottom: 37vh;
 }
 .list-link {
     color: white;
@@ -72,7 +69,7 @@ h1{
 
 .grid-container {
     display: grid;
-    column-gap: 50px;
+    column-gap: 30px;
     grid-template-columns: auto auto auto;
     background-color: #2196F3;
     padding: 10px;
@@ -83,37 +80,43 @@ h1{
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
-    text-align: center;
+    
   }
 
   .game-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 0fr));
-    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(12vw, 0fr));
+    grid-gap: 5vw;
   }
   
   .game {
     display: flex;
     flex-direction: column;
+    background-color: red;
+    border-radius: 5%;
+    text-align: center;
+
   }
   
   .game a {
     display: block;
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
+    
   }
   
   .game img {
-    width: 100%;
-    height: 40vh;
-    border-radius: 5px;
-   align-items: cen;
+    width: 12vw;
+    height: 25vh;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+  
   }
   
   .game h3 {
-    margin: 10px 0 5px;
-    font-size: 1.2rem;
-    font-weight: 500;
+    margin: 2%;
+    font-size: 0.9rem;
+    ;
   }
   
   .game p {
@@ -129,12 +132,17 @@ h1{
   }
   
   input {
-    font-size: 2rem;
+    font-size: 1.3rem;
+    padding-right: 10vw;
     border-radius: 5px;
     margin-bottom: 2vh;
-    border-color: white;
-    background-color: #000000;
+    border-color: rgb(0, 0, 0);
+    background-color: #1a1818;
     color: white;
+    text-decoration: none;
+    outline: none;
+    
+    
   }
 
   .hide{
