@@ -1,9 +1,8 @@
+
 iframe{
+    height: 100%;
     width: 100%;
-    height: 100vh;
     border: none;
-    margin-bottom: 100vh;
-    padding: 0;
 }
 
 html{
@@ -11,12 +10,9 @@ html{
     margin: 0;
 }
 
-body{
-    padding: 0;
-    margin: 0;
-    
-    
-}
+
+
+
 
 ::-webkit-scrollbar {
     width: 0;
@@ -40,24 +36,74 @@ body{
   }
 
   /* Allow scrolling */
-  body {
-    overflow-y: scroll;
-  }
+ 
 
  a:link{
   text-decoration: none;
   text-decoration-color: white;
-  background-color: #141414;
-  border: 1px solid rgba(54, 54, 54, 0.6);
-  font-weight: 600;
-  position: relative;
-  outline: none;
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  height: 45px;
-  width: 130px;
-  opacity: 1;
+ 
  }
+
+ 
+
+
+
+body {
+  margin: 0;
+  padding-top: 20vh;
+  padding-left: 8vw;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #1a1818;
+  
+}
+
+.navbar {
+  background-color: black;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.button-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+
+.brand-ul{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+
+.list-button {
+  margin: 0 10px;
+  
+}
+.list-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 2%;
+  
+}
+
+.iframe-div{
+  
+  
+  width: 100%;
+  height: 90vh;
+}
