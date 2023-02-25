@@ -22,12 +22,28 @@
                 
             </ul>
         <div class="iframe-div">    
-        <iframe src="https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s014b3c/fireboy-and-watergirl-3-in-the-ice-temple-game.xml"></iframe>
-        </div> <!--[if lt IE 7]>
+        <iframe src="https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s014b3c/fireboy-and-watergirl-3-in-the-ice-temple-game.xml" id="embedz"></iframe>
+        <button class="fullscreen" id="fullscreen" allowfullscreen>Fullscreen</button>
+     </div> <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
-        <script src="" async defer></script>
+          
+        <script>
+            const fullscreenButton = document.getElementById('fullscreen');
+      const iframe = document.getElementById('embedz');
+
+      fullscreenButton.addEventListener('click', () => {
+        if (iframe.requestFullscreen) {
+          iframe.requestFullscreen();
+        } else if (iframe.webkitRequestFullscreen) {
+          /* Safari */
+          iframe.webkitRequestFullscreen();
+        } else if (iframe.msRequestFullscreen) {
+          /* IE11 */
+          iframe.msRequestFullscreen();
+        }
+      });   </script>
         <div>
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1393606721670727"
      crossorigin="anonymous"></script>

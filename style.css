@@ -133,16 +133,17 @@ body {
   }
   
   input {
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding-right: 10vw;
     border-radius: 5px;
     margin-bottom: 2vh;
+    padding-bottom: 1.5vh;
     border-color: rgb(0, 0, 0);
     background-color: #1a1818;
     color: white;
     text-decoration: none;
     outline: none;
-    
+    fon
     
   }
 
