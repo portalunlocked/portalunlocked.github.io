@@ -71,20 +71,37 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  height: 100%;
+  
+}
+
+.contact-ul{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
   justify-content:flex-end;
   align-items: center;
   height: 100%;
+  margin-top: -9.7vh;
 }
-
-
+.contact-link{
+color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 .brand-ul{
 list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content:flex-start;
+  
   align-items: center;
   height: 100%;
+  
 }
 
 
@@ -92,15 +109,16 @@ list-style-type: none;
   margin: 0 10px;
   
 }
+
 .list-link {
   color: white;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
-  padding: 2%;
+  
+  
   
 }
-
 .iframe-div{
   
   
@@ -134,5 +152,13 @@ list-style-type: none;
   left:73vw;
   background-color: #980b1a;
   font-size: 1rem;
+}
+
+#gba-style{
+  width:60vw;
+  height:70vh;
+  max-width:100%;
+  margin-top: 0vh;
+  margin-left: 20vw;
 }
 
