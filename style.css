@@ -198,16 +198,36 @@ body {
 
 
 
-.L-ad{
-  padding-bottom: 80vh;
-  margin-right: 88vw;
-  margin-top: -115vh;
+  .grid-container {
+    display: flex; /* Create a flex container */
+    flex-wrap: wrap; /* Allow items to wrap to next row */
+    margin-left: 88vw; /* Set left margin */
+    padding-bottom: 80vh; /* Set bottom padding */
+    margin-top: -230vh;
+    grid-gap: 20vh;
+  }
+  
+  .grid-item {
+    /* Set item styles */
+    width: 15vw;
+    height: 100vh;
+    background-color: transparent;
+  }
+  
 
-}
-
-.R-ad{
-  margin-left: 88vw;
-  padding-bottom: 80vh;
-  margin-top: -80vh;
-}
-
+  .opgrid-container {
+    display: flex; /* Create a flex container */
+    flex-direction: column; /* Allow items to wrap to next row */
+    margin-left: 0vw; /* Set left margin */
+    padding-bottom: 80vh; /* Set bottom padding */
+    margin-top: -301vh;
+    grid-gap: 20vh;
+  }
+  
+  .opgrid-item {
+    /* Set item styles */
+    width: 13vw;
+    height: 100vh;
+    background-color: transparent;
+    
+  }
