@@ -200,18 +200,19 @@ body {
 
   .grid-container {
     display: flex; /* Create a flex container */
-    flex-wrap: wrap; /* Allow items to wrap to next row */
-    margin-left: 88vw; /* Set left margin */
-    padding-bottom: 80vh; /* Set bottom padding */
-    margin-top: -230vh;
+    flex-direction: column; /* Allow items to wrap to next row */
+    margin-left: 85vw; /* Set left margin */
+    /* Set bottom padding */
+    margin-top: -225vh;
     grid-gap: 20vh;
   }
   
   .grid-item {
     /* Set item styles */
-    width: 15vw;
+    width: 13vw;
     height: 100vh;
     background-color: transparent;
+    
   }
   
 
