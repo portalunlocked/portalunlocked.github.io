@@ -234,3 +234,22 @@ body {
     
   }
 
+
+@media screen and (width: 1980px)  and (height: 1080px) {
+  /* CSS styles for screens with a resolution of 1980 x 1080 */
+
+  
+  input{
+    margin-top: 0.8vh;
+
+  }
+
+  .list-link {
+    font-size: 2.5rem;
+  }
+
+  .contact-link{
+    font-size: 2.5rem;
+  }
+  
+}

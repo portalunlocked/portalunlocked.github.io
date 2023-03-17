@@ -163,3 +163,17 @@ list-style-type: none;
   margin-left: 20vw;
 }
 
+@media screen and (min-width: 1920px) and (max-width: 2560px) and (min-height: 1080px) {
+  /* CSS styles for screens with a resolution of 1980 x 1080 */
+
+  
+ 
+
+  .list-link {
+    font-size: 2.5rem;
+  }
+
+  .contact-link{
+    font-size: 2.5rem;
+  }
+}
