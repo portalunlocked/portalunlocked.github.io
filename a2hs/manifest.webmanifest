@@ -4,12 +4,12 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "icon/fox-icon.png",
+      "src": "/game-images/[CITYPNG.COM]HD Black Round Circle Outline Youtube YT Logo Icon PNG - 1700x1700.png",
       "sizes": "192x192",
       "type": "image/png"
     }
   ],
-  "name": "Awesome fox pictures",
-  "short_name": "Foxes",
-  "start_url": "/pwa-examples/a2hs/index.html"
+  "name": "FMS Play",
+  "short_name": "FMS Play",
+  "start_url": "fmsplay.github.io"
 }
