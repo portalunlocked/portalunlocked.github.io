@@ -107,7 +107,7 @@ list-style-type: none;
 
 
 .list-button {
-  margin: 0 1vh;
+  margin: 0 10px;
   
 }
 
@@ -141,10 +141,6 @@ list-style-type: none;
 
 }
 
-.logo{
-  margin-top: 0.5vh;
-  width: 4.5vw;
-}
 .iframe-div{
   padding-bottom: 5vh;
   background-color: #980b1a;

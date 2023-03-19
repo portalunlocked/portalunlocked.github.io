@@ -34,10 +34,7 @@ body {
     left: 0;
   
 }
-.logo{
-  margin-top: 0.5vh;
-  width: 4.5vw;
-}
+
 .button-ul {
     list-style-type: none;
     margin: 0;
@@ -85,13 +82,10 @@ body {
 
 
 .list-button {
-    margin: 0 1vh;
+    margin: 0 10px;
     
 }
 
-.list-button a{
-  color: white;
-}
 .search-ul{
   list-style-type: none;
   margin: 0;
@@ -149,7 +143,7 @@ body {
   .game {
     display: flex;
     flex-direction: column;
-    background-color: #8B0000;
+    background-color: red;
     border-radius: 5%;
     text-align: center;
     
