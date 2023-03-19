@@ -110,7 +110,9 @@ list-style-type: none;
   margin: 0 10px;
   
 }
-
+.logo{
+  width: 3vw
+}
 .list-link {
   color: white;
   text-decoration: none;
