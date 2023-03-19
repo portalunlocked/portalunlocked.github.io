@@ -4,7 +4,7 @@
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('/pwa-examples/a2hs/sw.js')
+    .register('/sw.js')
     .then(() => { console.log('Service Worker Registered'); });
 }
 
@@ -30,7 +30,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
     // Wait for the user to respond to the prompt
     deferredPrompt.userChoice.then((choiceResult) => {
       if (choiceResult.outcome === 'accepted') {
-        console.log('User accepted the A2HS prompt');
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";;
       } else {
         console.log('User dismissed the A2HS prompt');
       }

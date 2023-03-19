@@ -35,6 +35,9 @@ body {
   
 }
 
+
+
+
 .button-ul {
     list-style-type: none;
     margin: 0;
@@ -241,6 +244,21 @@ body {
   }
 
 
+  .logo{
+    width: 3rem
+  }
+
+  .add-button {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-right: 1vw;
+    background-color: black;
+  }
 @media screen and (width: 1980px)  and (height: 1080px) {
   /* CSS styles for screens with a resolution of 1980 x 1080 */
 
