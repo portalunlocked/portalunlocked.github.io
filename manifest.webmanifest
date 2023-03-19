@@ -1,0 +1,15 @@
+{
+  "background_color": "#1a1818",
+  "description": "The Best Educational Games for Kids & Adults",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "game-images/hd-white-youtube-yt-logo-symbol-icon-png-11637043675gcvxg522qx-removebg-preview.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "FMS Play",
+  "short_name": "FMS Play",
+  "start_url": "/index.html"
+}
