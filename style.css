@@ -322,7 +322,16 @@ body {
   .logo{
     width: 4vw
   }
+.logo:hover{
+  filter: brightness(70%);
+}
 
+.contact-link:hover{
+  filter: brightness(70%);
+}
+.list-link:hover{
+  filter: brightness(70%);
+}
   .add-button {
     position: absolute;
     top: 1px;

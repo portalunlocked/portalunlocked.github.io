@@ -122,6 +122,17 @@ list-style-type: none;
   
   
 }
+.contact-link:hover{
+  filter: brightness(70%);
+}
+
+.list-link:hover{
+  filter: brightness(70%);
+}
+
+.logo:hover{
+  filter: brightness(70%);
+}
 .iframe-div{
   
   
