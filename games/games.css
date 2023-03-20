@@ -115,10 +115,10 @@ list-style-type: none;
 }
 .list-link {
   color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: bold;
-  
+    text-decoration: none;
+    font-size: 2vw;
+   font-weight: bold;
+    margin-right: 0.2vw;
   
   
 }
