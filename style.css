@@ -222,7 +222,7 @@ body {
   .game {
     display: flex;
     flex-direction: column;
-    background-color: red;
+    background-color: #980B1A;
     border-radius: 5%;
     text-align: center;
     
