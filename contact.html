@@ -5,6 +5,12 @@
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
+
+        <style>
+            body{
+                background-color: #1a1818;
+            }
+        </style>
         <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6RJP2H7GF8"></script>
 <script>
@@ -22,7 +28,60 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIW0WQ17sntMdqPB71-_4iXyk3t7FIt9-ZNz5TWTUXSSc3xA/viewform?embedded=true" width="640" height="667" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+       <!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/mlekwpyy",
+    title: "What game do you want us to add?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "Game name",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "#980B1A"
+      },
+      button: {
+        backgroundColor: "#980B1A"
+      }
+    }
+  });
+</script>
+
+<form action="https://formspree.io/f/mlekwpyy" method="POST" style="max-width: 500px; margin: 0 auto; padding: 20px; border: 2px solid #980B1A; border-radius: 10px;">
+    <h2 style="text-align: center; font-size: 30px; color: #980B1A;">Contact Us</h2>
+    <div style="display: flex; flex-direction: column; margin-bottom: 10px;">
+      <label for="email" style="color: #980B1A; font-size: 20px; margin-bottom: 5px;">Your email:</label>
+      <input type="email" name="email" id="email" style="padding: 10px; border: none; border-radius: 5px; background-color: #F9F9F9;">
+    </div>
+    <div style="display: flex; flex-direction: column; margin-bottom: 10px;">
+      <label for="message" style="color: #980B1A; font-size: 20px; margin-bottom: 5px;">Game Name?:</label>
+      <textarea name="message" id="message" style="padding: 10px; border: none; border-radius: 5px; background-color: #F9F9F9;"></textarea>
+    </div>
+    <div style="display: flex; flex-direction: column; margin-bottom: 10px;">
+        <label for="message" style="color: #980B1A; font-size: 20px; margin-bottom: 5px;">Game Link:</label>
+        <textarea name="link" id="link" style="padding: 10px; border: none; border-radius: 5px; background-color: #F9F9F9;"></textarea>
+      </div>
+    <button type="submit" style="background-color: #980B1A; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-size: 20px;">Send</button>
+  </form>
+  
+
         <!--[if lt IE 7]>
             
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
