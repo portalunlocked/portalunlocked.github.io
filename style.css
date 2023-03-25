@@ -84,7 +84,6 @@ body {
     
 }
 
-
 .list-button {
     margin: 0 10px;
     
@@ -320,7 +319,7 @@ body {
 
 
   .logo{
-    width: 4vw
+    width: 3.5vw
   }
 .logo:hover{
   filter: brightness(70%);
